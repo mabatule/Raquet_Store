@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="stylesheet" type="text/css" href="../styles/login.css">
+        <!--
+                <link rel="stylesheet" type="text/css" href="../styles/general.css">
+
+        -->
+        <script src="../scripts/login.js"></script>
+
+
+        <title>LOGIN</title>
+    </head>
+    <body>
+
+        <div id="login-container" >
+
+            <div class="titleLogin">
+                <h2>    Login   </h2>
+            </div>
+
+
+            <div class="imgcontainer">
+                <img src="/assets/login_image.png" class="avatar">
+            </div>
+
+
+            <form id="login-box">
+                <div class="inputs-login">
+                    <label for="email" class="form-label"><b>Email:</b> </label>
+                    <input type="mail" name="email" class="form-control" placeholder="Introduce tu email">
+                </div>
+                <div class="alert-invalidate" id="email-alert">
+                    <h4>Introduzca su email</h4>
+                </div>
+                <br>
+                <div class="inputs-login">
+                    <label for="password" class="form-label"><b>Contraseña:</b></label>
+                    <input type="password" name="password" class="form-control"   placeholder="Introduce tu password">
+                </div> 
+                <div class="alert-invalidate" id=password-alert>
+                    <h4>Introduzca su contraseña</h4>
+                </div>   
+                <br>
+                
+                <div class="submit-login">
+                    <input id="login-user" type="submit" value="Ingresar"   class="btn btn-success btn-block">
+                    
+                </div> 
+                <br>
+
+            </form>
+            <div class="registro">
+                <input id="Sinup-user" type="submit" value="Registrarse"   class="btn btn-success btn-block">
+            </div>
+            <br>
+            <div id="loginMessage"> </div>
+        </div>
+
+    </body>
+</html>

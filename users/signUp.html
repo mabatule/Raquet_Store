@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="stylesheet" type="text/css" href="../styles/signUp.css">
+        <!--
+                <link rel="stylesheet" type="text/css" href="../styles/general.css">
+
+        -->
+        <script src="../scripts/signUp.js"></script>
+
+
+        <title>SignIn</title>
+    </head>
+    <body>
+
+        <div id="SignIn-container" >
+
+            <div class="titleSignIn">
+                <h2>    Registrarse   </h2>
+            </div>
+
+
+            <!--
+                <div class="imgcontainer">
+                <img src="/assets/login_image.png" class="avatar">
+            </div>
+            -->
+
+
+            <form id="SignIn-box">
+                <br>
+                <div class="inputs-SignIn">
+                    <label for="email" class="form-label"><b>Email:</b> </label>
+                    <input type="mail" name="email" class="form-control" >
+                </div>
+
+                <div class="alert-invalidate" id="email-alert">
+                    <h4>Introduzca su email</h4>
+                </div>
+                
+                
+                <div class="inputs-SignIn">
+                    <label for="password" class="form-label"><b>Contraseña:</b></label>
+                    <input type="password" name="password" class="form-control"   >
+                </div> 
+
+
+                <div class="alert-invalidate" id=password-alert>
+                    <h4>Introduzca su contraseña</h4>
+                </div>  
+
+                <div class="inputs-SignIn" id=confirm-pass>
+                    <label for="password" class="form-label"><b>Confirme su contraseña:</b> </label>
+                    <input type="password" name="passwordConfirm" class="form-control" >
+                </div>
+
+                <div class="alert-invalidate" id="password-confirm-alert">
+                    <h4>Introduzca de nuevo su Contraseña</h4>
+                </div>
+            
+                
+                <div class="submit-SignIn">
+                    <input id="SignIn-user" type="submit" value="Ingresar"   class="btn btn-success btn-block">
+                </div> 
+
+                <br>
+            </form>
+            <div id="stateMessage"> </div>
+        </div>
+
+    </body>
+</html>

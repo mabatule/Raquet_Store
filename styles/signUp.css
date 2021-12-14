@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#SignIn-container{
+  margin: auto;
+  width: 30%;
+  height: auto;
+  box-shadow: 6px 20px 30px black;
+  background-color: rgba(101, 101, 160, 0.4);
+      
+}
+
+/*
+.imgcontainer > img{
+  margin: 5%;
+  width:  30%;
+  height: 30%;
+}*/
+
+
+.inputs-SignIn label{
+  display: inline-block;
+  width: 30%; 
+  font-family: 'Staatliches', cursive;
+}
+
+
+#SignIn-container .titleSignIn{
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  background-color: rgba(182, 255, 255,0.4);
+
+}
+#SignIn-container .titleSignIn>h2{
+  color: rgb(30, 41, 51);
+  font-weight: unset;
+  background-color: rgba(27, 53, 204, 0.4);
+}
+
+
+#stateMessage{
+  background-color: rgba(0,0,0,0.2);
+  width: 100%; 
+  height: auto;
+  text-align: center;
+}
+
+.alert-invalidate {
+  margin-top: 0px;
+  margin-left: 30%;
+  background-color: rgb(245, 137, 137);
+  width: 60%;
+  text-align: center;
+  border-radius: 20px;
+  transition: .3s ease all;
+  transform: scale(0.5);
+  opacity: 0;
+}
+#confirm-pass{
+  font-size: 13px;
+}
+#password-confirm-alert{
+  margin-top: -10px;
+}
+.alert-invalidate.active{
+  transform: scale(0.7); 
+  opacity: 1;
+}
+
+.submit-SignIn,.inputs-SignIn,.imgcontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
