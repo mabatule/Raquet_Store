@@ -4,14 +4,13 @@
 }
 
 #SignIn-container{
-  margin: auto;
+  margin: 80px auto 550px auto;
   width: 30%;
   height: auto;
   box-shadow: 6px 20px 30px black;
   background-color: rgba(101, 101, 160, 0.4);
-      
+  
 }
-
 /*
 .imgcontainer > img{
   margin: 5%;

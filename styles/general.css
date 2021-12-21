@@ -1,108 +1,71 @@
-* {
+*{
   box-sizing: border-box;
   margin: 0;
 }
-header{
-  background: linear-gradient(to bottom, #e6c300 0%, #f8da8c 100%);
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-header:hover{
-  font-size: 40px;
-}
-/*
-background-image: linear-gradient(to bottom right, #02011d, #2e1294, #412ab4);
 
-#netflix{
-
-
-  background: linear-gradient(#460606, #4b4545); 
-  background-color: #6b6b6b; 
-}
-#amazon{
-
-
-  background: linear-gradient(#040761, #5e5c63); 
-  background-color: #4536cc; 
-}
-#disney{
-
-
-  background: linear-gradient(#93e4a6, #1acc9a); 
-  background-color: #3fb343; 
-}
-#google-tv{
-
-
-  background: linear-gradient(#bd6262, #f30947); 
-  background-color: #602fe6; 
-}
-
-#SearchBox{
-            position: relative;
-    
-            background: linear-gradient(rgb(0, 40, 58),#1318ae, #03dcb4); 
-            height: 100px;
-            width: auto;
-        }
-
-
-        background-image: linear-gradient(to bottom left, #525252, #bbbbbb, #434343);
-background-image: linear-gradient(to bottom left, #525252, #bbbbbb, #434343);
-background-image: linear-gradient(to bottom left, #42c50e, #0095d0, #1200b6);
-
-    background-color: rgb(209, 209, 209); 
-    background-image: rgb(138, 138, 138); 
-
-background: linear-gradient(0.25turn, #ff0000,#ff7878);
-background: linear-gradient(0.25turn, #8280ff,#0400ff);
-
-
-background: linear-gradient(to bottom, #d3d3d3 0%, #a7a7a7 100%);
-background: linear-gradient(to bottom, #c9c9c9 0%, #f2f2f2 100%);
-background: linear-gradient(to bottom, #00e1e9 0%, #00a791 100%);
-
-background: linear-gradient(to bottom, #fffee4 0%, #fffbe0 100%);
-background: linear-gradient(to bottom, #e6c300 0%, #f8da8c 100%);
-background: linear-gradient(to bottom, hsl(61, 100%, 73%) 0%, gold 100%);
-
-*/
-
-/*
-footer {
-    padding-top: 25px;
-    background: rgb(255, 239, 148);
-    background-image:  url('../assets/images/figures_footer.jpg');
-    border: 10px whitesmoke inset;
-    
-  }
+ul {
   
-  footer h1 { 
-    font-family: 'Lora', serif;
-    color: wheat;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: .75;
-    
-    
-  }
-  footer a{
-    text-decoration: none;
-  }
- 
-  footer p {
-    color: rgb(218, 218, 218);
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-top: 15px;
-  }
-  footer p span { 
-    vertical-align: middle;
-  }
-  footer p img{
-      width: 16.66%;
-  }*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+li a:hover {
+  background-color: #111;
+}
+#session-btn{
+  margin-top: 12%;
+  margin-right: 10px;
+}
+/*footer*/
+
+button{
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+footer {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  color: white;
+  text-align: center;  
+}
+.fab:hover{
+  color: red;
+}
+.contains-footer{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items:center;
+  width: 100%;
+  padding-bottom: 20px;
+
+  background-color: rgb(0, 0, 0);
+  justify-content: space-around ;
+}
+.containsub-footer{
+  font-family: 'Roboto', sans-serif;
+  width: auto;
+  font-size: 18px;
+}
+#contains-logos img{
+  width:  220px;
+  height: 100px;
+  margin-top: 20px;
+}

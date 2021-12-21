@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', function(event){
             window.location.href = '../otherMain.html'
         }
     }
-
+    
 
 
 

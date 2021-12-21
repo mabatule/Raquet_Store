@@ -4,7 +4,8 @@
 }
 
 #login-container{
-    margin: auto;
+    
+    margin: 80px auto 260px auto;
     width: 30%;
     height: auto;
     box-shadow: 6px 20px 30px black;
@@ -13,7 +14,7 @@
 }
 
 .imgcontainer > img{
-    margin: 5zz%;
+    margin: 5%;
     width:  30%;
     height: 30%;
 }

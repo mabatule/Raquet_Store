@@ -18,8 +18,14 @@ window.addEventListener('DOMContentLoaded', function(event){
         }
     }
 
-
-
+    function redirectionLogin(){
+        window.location.href = '/users/login.html'
+    }
+    function redirectionSingUp(){
+        window.location.href = '/users/signUp.html'
+    }
+    document.getElementById('registrarse-btn').addEventListener('click',redirectionSingUp);
+    document.getElementById('session-login-btn').addEventListener('click',redirectionLogin);
 
 
     

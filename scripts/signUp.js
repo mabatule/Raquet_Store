@@ -159,5 +159,14 @@
     "ConfirmPassword": "a_123ABCxyz"
 }
     */
+    function redirectionLogin(){
+        window.location.href = '/users/login.html'
+    }
+    function redirectionSingUp(){
+        window.location.href = '/users/signUp.html'
+    }
+    document.getElementById('registrarse-btn').addEventListener('click',redirectionSingUp);
     document.getElementById('SignIn-box').addEventListener('submit',postUser);
+    document.getElementById('session-login-btn').addEventListener('click',redirectionLogin);
+
 });
