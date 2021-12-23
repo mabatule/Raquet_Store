@@ -52,7 +52,7 @@ window.addEventListener('DOMContentLoaded',async function(event){
         
         
     }
-    function redirectToRaquets(data){
+    function redirectToRaquets(data){ 
         let id=data.currentTarget.id.split('-')[1];
         sessionStorage.setItem("id_brand", id);
         window.location.href = 'raquets.html';

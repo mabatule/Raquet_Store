@@ -10,7 +10,7 @@
     height: auto;
     box-shadow: 6px 20px 30px black;
     background-color: rgba(101, 101, 160, 0.4);
-        
+    font-size: 25px;
 }
 
 .imgcontainer > img{
@@ -76,4 +76,20 @@
     
     margin: 10px;
     
+}
+
+#login-user,#Sinup-user{
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	cursor:pointer;
+	color:#666666;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+}
+#login-user:hover{
+    background-color:#c4bebe;
+}
+#Sinup-user:hover{
+	background-color:#c4bebe;
 }

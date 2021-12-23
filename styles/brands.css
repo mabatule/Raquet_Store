@@ -83,14 +83,13 @@ footer {
 }
 /* #brands-container > div */
 .brand{
-    margin: 50px;
+    margin: 10px 10px;
     border: rgb(5, 5, 5) 4px outset;
-    width: auto;
+    width: 40%;
     background: rgb(255, 255, 255);
-
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 	transition: all 400ms ease-out;
-	cursor: default;
+	cursor: pointer;
 }
 .brand:hover{
     box-shadow: 5px 5px 30px rgba(245, 10, 10, 0.4);
@@ -98,7 +97,6 @@ footer {
 }
 .image-contain > img{
     width: 100%;
-
 }
 .tittle{
     margin: 20px;

@@ -2,14 +2,28 @@
   box-sizing: border-box;
   margin: 0;
 }
-
+/*Boton*/
+#SignIn-user{
+  margin-top: 8px;
+  margin-right: 10px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	cursor:pointer;
+	color:#666666;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+}
+#SignIn-user:hover{
+    background-color:#c4bebe;
+}
 #SignIn-container{
-  margin: 80px auto 550px auto;
-  width: 30%;
+  margin: 80px auto;
+  width: 40%;
   height: auto;
   box-shadow: 6px 20px 30px black;
   background-color: rgba(101, 101, 160, 0.4);
-  
+  font-size:30px;
 }
 /*
 .imgcontainer > img{
@@ -58,7 +72,7 @@
   opacity: 0;
 }
 #confirm-pass{
-  font-size: 13px;
+  font-size: 20px;
 }
 #password-confirm-alert{
   margin-top: -10px;

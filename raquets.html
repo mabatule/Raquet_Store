@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="/styles/general.css">
     <link rel="stylesheet" type="text/css" href="/styles/raquets.css">
 
-
+    <script src="/scripts/general.js"></script>
     <script src="/scripts/raquets.js"></script>
     <title>Inicio</title>
 </head>
@@ -26,9 +26,11 @@
             <li> <a href="brands.html">Nuestras Marcas</a>  </li>
             <li> <a href="#contact">Contact</a>       </li>
             <li> <a href="#about">About</a>           </li>
+            <li style="float:right"><button id="logout-btn">Cerrar Sesion</button> </li>
             <li style="float:right"><button id="registrarse-btn">Registrarse</button> </li>
-                <li style="float:right"><button id="session-login-btn"> Iniciar Sesion</button> </li>
-            
+            <li style="float:right"><button id="session-login-btn"> Iniciar Sesion</button> </li>
+            <li style="float:right"><button id="user-btn">  </button> </li>
+
         </ul>
     </div>
 </header>
@@ -40,10 +42,89 @@
     <div id="raquets-container"  >
         
     </div>
+
+
     
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            
+            <div class="image-contain-popup" id="image-raquet-${raquet.id}">
+                        
+            </div>
+            
+            <div class="contain-description-popup">
+                <div class="tittle-model">
+                    <h1 id="h1-model">      </h1>
+                </div>
+                <p><b>Peso:</b></p>                     <p id="p-Peso">        </p><br>
+                <p><b>Cantidad en la tienda:</b></p>    <p id="p-Cantidad">    </p><br> 
+                <p><b>Descripcion:</b> </p>             <p id="p-Descripcion"> </p><br>
+                <p><b>Precio:</b> </p>                         <p id="p-Precio">      </p>
+            </div>
+            <div class="Close-btn-Detalles">
+                <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="overlay-eliminar" id="overlay-eliminar">
+        <div class="popup-eliminar" id="popup-eliminar">
+
+            <div class="content-eliminar">
+                <div class="tittle">
+                    <h1 id="message-eliminar">Esta seguro de eliminar?</h1>
+                </div>
+                <div class="content-eliminar-btn" id="content-eliminar-btn-id">
+                    <button id="si-btn">Si</button>
+                    <button id="no-btn">No</button>
+                </div>
+            </div>
+            <a href="#" id="btn-cerrar-popup-eliminar" class="btn-cerrar-popup-eliminar">
+                <i class="fas fa-times"></i>
+            </a>
+            
+        </div>
+    </div>
+    <div class="overlay-editar" id="overlay-editar">
+        <div class="popup-editar" id="popup-editar">
+            
+            <div class="content-editar">
+                
+                <div class="tittle">
+                    <p id="message-editar"><b>Modificar Raqueta</b></p>
+                </div>
+                
+                <form class="form-content-editar" id="form-editar">
+                    <div class="content-description" id="content-description-id">
+                        <p><b>Modelo:</b></p>
+                        <input type="text" name="modelo" id="input-modelo-editar">        
+                        <p><b>Peso:</b></p>
+                        <input type="text" name="peso" id="input-peso-editar">         
+                        <p><b>Precio:</b></p>
+                        <input type="text" name="precio" id="input-precio-editar">        
+                        <p><b>Descripcion:</b></p>
+                        <textarea name="descripcion" id="input-descripcion-editar"></textarea>   
+                        <p><b>Cantidad:</b></p>
+                        <input type="text" name="cantidad" id="input-cantidad-editar">      
+                        <!--<textarea id="input-descripcion-editar"></textarea>-->
+                    </div>
+                    <div class="button-editar"> 
+                        <button type="submit" id="btn-editar-aceptar">Aceptar</button> 
+                        <button type="cancel" id="btn-editar-cancelar">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="exit">
+                <a href="#" id="btn-cerrar-popup-editar" class="btn-cerrar-popup-editar">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
     <footer>
-
             <div class="contains-footer">
                 <div class="containsub-footer" id="contains-logos">
                     <img src="/assets/logos_Images.jpg" class="avatar">

@@ -57,12 +57,13 @@ window.addEventListener('DOMContentLoaded', function(event){
                     document.getElementById("loginMessage").innerHTML= "Usuario aceptado, espere a ser redireccionado.";
                     document.getElementById("loginMessage").style.backgroundColor = "green";
                     document.getElementById("loginMessage").style.color = "white";
-                    setTimeout(function(){
-                        if(role=='Admin'){
+                    setTimeout(function(){ 
+                        window.location.href = '../mainUser.html'
+                        /*if(role=='Admin'){
                             window.location.href = '../main.html'
                         }else{
                             window.location.href = '../mainUser.html'
-                        }
+                        }*/
                     },2000);
                 });
                 
@@ -71,9 +72,9 @@ window.addEventListener('DOMContentLoaded', function(event){
                 response.json()
                 .then((error)=>{
                     if(response.status === 400){ 
-                        let message = error.message;
-                        if (error.message==undefined)
-                            message = "Usuario no existente! Registrese";
+                        let message = error.token;
+                        /*if (error.message==undefined)
+                            message = "Usuario no existente! Registrese";*/
                         document.getElementById("loginMessage").innerHTML= message;
                         document.getElementById("loginMessage").style.backgroundColor = "red";
                         document.getElementById("loginMessage").style.color = "white";
