@@ -117,3 +117,9 @@ footer {
   height: 100px;
   margin-top: 10px;
 }
+textarea{
+  max-width:350px;
+  max-height: 350px;
+  min-width: 250px;
+  min-height: 150px;
+}

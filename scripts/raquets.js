@@ -141,6 +141,142 @@ window.addEventListener('DOMContentLoaded',async function(event){
         });
         raquets =await fetchGetRaquets();
     }
+    function postRaquet(event){
+
+        event.preventDefault();
+        let url = `${baseUrl}/brands/${idbrand}/raquet/form`;  
+        const formData = new FormData();
+        let modelo= event.currentTarget.form.modelo.value;
+        let peso= event.currentTarget.form.peso.value;
+        let precio=event.currentTarget.form.precio.value;
+        let descripcion=event.currentTarget.form.descripcion.value;
+        let cantidad=event.currentTarget.form.cantidad.value;
+        let brandId= parseInt(idbrand)
+        let mainImagen = event.currentTarget.form.mainImagen.files[0];
+        
+        
+        let modeloV= false;
+        let pesoV= false;
+        let precioV=false;
+        let descripcionV=false;
+        let cantidadV=false;
+        let mainImagenV = false;
+        //let secondImagen = event.currentTarget.secondImagen.files[0];
+
+
+        if(!Boolean(modelo) ){  
+            document.getElementById('modelo-alert').classList.add('active');
+            
+        }else{
+            document.getElementById('modelo-alert').classList.remove('active');
+            modeloV=true;
+            
+        }
+        if(!Boolean(peso)){ 
+            document.getElementById('peso-alert').innerHTML='<p>Ingrese su Peso</p>';
+            document.getElementById('peso-alert').classList.add('active');
+            
+        }else{
+            if( isNaN(peso) ){
+                document.getElementById('peso-alert').innerHTML='<p> El peso tiene que ser un numero entero </p>';
+                document.getElementById('peso-alert').classList.add('active');
+                
+            }else{
+                document.getElementById('peso-alert').classList.remove('active');
+                pesoV=true;
+            }
+        }
+        if(!Boolean(precio)){ 
+            document.getElementById('precio-alert').innerHTML='<p>Ingrese su precio</p>';
+            document.getElementById('precio-alert').classList.add('active');
+            
+        }else{
+            if( isNaN(precio) ){
+                document.getElementById('precio-alert').innerHTML='<p> El precio tiene que ser un numero entero </p>';
+                document.getElementById('precio-alert').classList.add('active');
+                
+            }else{
+                document.getElementById('precio-alert').classList.remove('active');
+                precioV=true;
+            }
+        }
+        if(!Boolean(descripcion) ){  
+            document.getElementById('descripcion-alert').innerHTML='<p>Ingrese su descripcion</p>';
+            document.getElementById('descripcion-alert').classList.add('active');
+            
+        }else{
+            document.getElementById('descripcion-alert').classList.remove('active');
+            descripcionV=true;
+        }
+        if(!Boolean(cantidad)){ 
+            document.getElementById('cantidad-alert').innerHTML='<p>Ingrese su cantidad</p>';
+            document.getElementById('cantidad-alert').classList.add('active');
+            
+        }else{
+            if( isNaN(cantidad) ){
+                document.getElementById('cantidad-alert').innerHTML='<p> La cantidad tiene que ser un numero entero </p>';
+                document.getElementById('cantidad-alert').classList.add('active');
+                
+            }else{
+                document.getElementById('cantidad-alert').classList.remove('active');
+                cantidadV=true;
+            }
+        }
+        if(!Boolean(mainImagen) ){  
+            document.getElementById('mainImagen-alert').innerHTML='<p>Ingrese su foto</p>';
+            document.getElementById('mainImagen-alert').classList.add('active');
+
+        }else{
+            document.getElementById('mainImagen-alert').classList.remove('active');
+            mainImagenV=true;
+        }
+
+        if(modeloV && pesoV && precioV && descripcionV && cantidadV && mainImagenV) {
+            console.log('pass ok');
+        }else{
+            return;
+        }
+        formData.append('modelo', modelo);
+        formData.append('peso', parseInt(peso));
+        formData.append('precio', parseInt(precio));
+        formData.append('descripcion', descripcion);
+        formData.append('cantidad', parseInt(cantidad));
+        formData.append('brandId', mainImagen);
+        formData.append('mainImagen', mainImagen);
+
+
+
+        /*
+        var data = {
+            name: event.currentTarget.name.value,
+            country: event.currentTarget.country.value,
+            dateOfCreation: event.currentTarget.dateOfCreation.value,
+            description: event.currentTarget.description.value,
+            mainPhoto: "vacio",
+            secondPhoto: "vacio"
+        };*/
+
+
+        
+        fetch(url, {
+            method: 'POST',
+            headers: { 
+            //"Authorization": `Bearer ${sessionStorage.getItem("jwt")}`
+            },
+            body: formData
+        }).then(response => {
+            if(response.status === 201){
+                alert('Se creo una nueva Raqueta.');
+                location.reload();
+            } else {
+                response.text()
+                .then((error)=>{
+                    alert(error);
+                });
+            }
+        });
+    }
+
     function htmlbox_brands(list_raquets){
         let brandBlock = list_raquets.map( raquet => { 
         return `<div class="raquet" id="raquet-${raquet.id}"> 
@@ -160,6 +296,16 @@ window.addEventListener('DOMContentLoaded',async function(event){
                         
                     </div>
                 </div>`}   );
+        if(myRole()=="Admin"){
+            let addeee=brandBlock;
+            addeee.push(`<div class="raquet" id="content-add-btn">
+                            <div class="content-btn-add"> 
+                                <button id="agregar-btn"> <h1><i class="fas fa-plus"></i></h1></button>
+                                <h1>Agregar</h1>
+                            </div>   
+                        </div>`);
+        }        
+        
         
         var brandsContent = brandBlock.join('');
         document.getElementById('raquets-container').innerHTML = brandsContent;
@@ -173,6 +319,7 @@ window.addEventListener('DOMContentLoaded',async function(event){
                 var idSubclass=subclass.id.split('-')[2];
                 document.getElementById(subclass.id).innerHTML=`<button class="btn-detalles" id="Detalle-btn-${idSubclass}">Previsualizar</button> <button class="btn-editar" id="Editar-btn-${idSubclass}">Editar</button>    <button class="btn-eliminar" id="Eliminar-btn-${idSubclass}">Eliminar</button>`;
             });
+            
         }else{
             
             if(myRole()=="User"){
@@ -217,7 +364,8 @@ window.addEventListener('DOMContentLoaded',async function(event){
         var modal = document.getElementById("overlay");
         var modal2 = document.getElementById("overlay-eliminar");
         var modal3 = document.getElementById("overlay-editar");
-        if (event.target == modal || event.target==modal2 || event.target==modal3) {
+        var modal4 = document.getElementById("overlay-create");
+        if (event.target == modal || event.target==modal2 || event.target==modal3 || event.target==modal4) {
             document.getElementById('overlay').classList.remove('active');
             document.getElementById('popup').classList.remove('active');
 
@@ -226,6 +374,10 @@ window.addEventListener('DOMContentLoaded',async function(event){
 
             document.getElementById('overlay-editar').classList.remove('active');
             document.getElementById('popup-editar').classList.remove('active');
+
+            document.getElementById('overlay-create').classList.remove('active');
+            document.getElementById('popup-create').classList.remove('active');
+            location.reload();
         }
     }
 
@@ -244,7 +396,16 @@ window.addEventListener('DOMContentLoaded',async function(event){
         document.getElementById('popup-eliminar').classList.remove('active');
     } 
 
+    function mostrarPopUpCreate(data){
+        document.getElementById('overlay-create').classList.add('active');
+        document.getElementById('popup-create').classList.add('active');
+    }
 
+    function cerrarPopUPCreate(event){
+        event.preventDefault();
+        document.getElementById('overlay-create').classList.remove('active');
+        document.getElementById('popup-create').classList.remove('active');
+    } 
     async function mostrarPopUpEdit(data){
         let currentIdClass=data.currentTarget.id;
         let idClass=currentIdClass.split('-')[2];
@@ -314,6 +475,14 @@ window.addEventListener('DOMContentLoaded',async function(event){
     document.getElementById('btn-cerrar-popup-editar').addEventListener('click',cerrarPopUPEdit);
     document.getElementById('btn-editar-aceptar').addEventListener('click',fetchPutRaquet);
     document.getElementById('btn-editar-cancelar').addEventListener('click',cerrarPopUPEdit);
+
+    //create
+    //document.getElementById('create-raquet-form-frm').addEventListener('submit',postRaquet);
+    document.getElementById('btn-create-aceptar').addEventListener('click',postRaquet);
+    
+    document.getElementById('agregar-btn').addEventListener('click',mostrarPopUpCreate);
+    document.getElementById('btn-create-cancelar').addEventListener('click',cerrarPopUPCreate);
+    document.getElementById('btn-cerrar-popup-create').addEventListener('click',cerrarPopUPCreate);
 
     
 

@@ -74,7 +74,7 @@
 
             <div class="content-eliminar">
                 <div class="tittle">
-                    <h1 id="message-eliminar">Esta seguro de eliminar?</h1>
+                    <p id="message-eliminar">Esta seguro de eliminar?</p>
                 </div>
                 <div class="content-eliminar-btn" id="content-eliminar-btn-id">
                     <button id="si-btn">Si</button>
@@ -118,6 +118,71 @@
             </div>
             <div class="exit">
                 <a href="#" id="btn-cerrar-popup-editar" class="btn-cerrar-popup-editar">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-create" id="overlay-create">
+        <div class="popup-create" id="popup-create">
+            <div id="form-raquet" class="container-raquet-create">
+                <div class="tittle">
+                    <p id="message-editar"><b>Crear Raqueta</b></p>
+                </div>
+                <form id="create-raquet-form-frm">
+                    <div class="description-create">
+                        <label for="Modelo" class="form-label"><b>Modelo:</b></label> 
+                        <input type="text" name="modelo" id="input-modelo-editar">    <br>
+                        
+                        <div class="alert-invalidate" id="modelo-alert">
+                            <p>Ingrese su modelo</p>
+                        </div>  
+                        
+                        <label for="Peso" class="form-label"><b>Peso:</b></label>         
+                        <input type="text" name="peso" id="input-peso-editar">       <br>   
+                        
+                        <div class="alert-invalidate" id="peso-alert">
+                            
+                        </div>
+                        
+                        <label for="Precio" class="form-label"><b>Precio:</b></label>       
+                        <input type="text" name="precio" id="input-precio-editar">      <br>   
+                        
+                        <div class="alert-invalidate" id="precio-alert">
+                            
+                        </div>
+                        <label for="Cantidad" class="form-label"><b>Cantidad:</b></label>     
+                        <input type="text" name="cantidad" id="input-cantidad-editar">      <br> 
+                        <div class="alert-invalidate" id="cantidad-alert">
+                            
+                        </div>
+                        <label for="Descripcion" class="form-label"><b>Descripcion:</b></label> <br> 
+                        <textarea name="descripcion" id="input-descripcion-editar"></textarea>   <br> 
+                        
+                        <div class="alert-invalidate" id="descripcion-alert">
+                            
+                        </div>
+                        
+                        
+
+
+                        <label for="mainImagen" class="form-label"><b>Imagen de la Raqueta</b></label>  <br> 
+                        <input id="mainImagen" type="file" name="mainImagen" class="form-control">
+                        
+                        <div class="alert-invalidate" id="mainImagen-alert">
+                            
+                        </div>
+
+                    </div>
+                    <div class="content-buttons-create">
+                        <button type="submit" id="btn-create-aceptar">Agregar</button> 
+                        <button type="cancel" id="btn-create-cancelar">Cancelar</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="exit">
+                <a href="#" id="btn-cerrar-popup-create" class="btn-cerrar-popup-create">
                     <i class="fas fa-times"></i>
                 </a>
             </div>

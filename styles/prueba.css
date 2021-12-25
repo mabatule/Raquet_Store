@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container-raquet-create{
+    background-color: cadetblue;
+}
+
+.description-create{
+    background-color: chartreuse;
+}
+
+
+
+
+
+
+.overlay, .overlay-eliminar,.overlay-editar {
+	background: rgba(0,0,0,.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+    align-items: center;
+	justify-content:center;
+    visibility: visible;
+
+    
+}
+.overlay.active, .overlay-eliminar.active,.overlay-editar.active{
+	visibility: visible;
+}
+.popup, .popup-eliminar, .popup-editar{
+	background: #F8F8F8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	display: flex;
+    
+	width: 40%;
+	font-size: 25px;
+	transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+    border: 2px;
+    border-radius: 12px;
+    padding: 5px;
+    transform: scale(1); 
+    opacity: 1; 
+}
+.popup.active, .popup-eliminar.active, .popup-editar.active  {	
+    transform: scale(1); 
+    opacity: 1; 
+}
+
+.popup .btn-cerrar-popup,  .popup-eliminar .btn-cerrar-popup-eliminar,  .popup-editar .btn-cerrar-popup-editar{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #636060;
+}
+.popup .btn-cerrar-popup:hover,  .popup-eliminar .btn-cerrar-popup-eliminar:hover,  .popup-editar .btn-cerrar-popup-editar:hover {
+	color: rgb(255, 0, 0);
+}
