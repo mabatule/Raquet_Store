@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded',async function(event){
             
             let raquetsClass=Object.values(document.getElementsByClassName('image-contain-popup')) ;
 
-            let staticImage='<img src="/assets/raquet2.jpg" class="avatar">';
+            let staticImage=`<img src="${baseRawUrl}/${data.mainPhoto}" >`;
             raquetsClass.forEach(subclass => {
                 document.getElementById(subclass.id).innerHTML=staticImage;
             });
@@ -98,26 +98,33 @@ window.addEventListener('DOMContentLoaded',async function(event){
     {
         let id=event.currentTarget.classList.add;
         event.preventDefault();
-        var raquet = {
-            modelo: event.currentTarget.form.modelo.value,
-            peso: parseInt(event.currentTarget.form.peso.value),
-            precio:parseInt(event.currentTarget.form.precio.value),
-            descripcion:event.currentTarget.form.descripcion.value,
-            cantidad:parseInt(event.currentTarget.form.cantidad.value),
-            brandId: parseInt(idbrand)
-        };     
-        var raquetJson = JSON.stringify(raquet)
+        
+        let modelo= event.currentTarget.form.modelo.value;
+        let peso= parseInt(event.currentTarget.form.peso.value);
+        let precio=parseInt(event.currentTarget.form.precio.value);
+        let descripcion=event.currentTarget.form.descripcion.value;
+        let cantidad=parseInt(event.currentTarget.form.cantidad.value);
+        let brandId= parseInt(idbrand);
+        let mainImagen = event.currentTarget.form.mainImagen.files[0];
 
-        const url =`${baseUrl}/brands/${idbrand}/raquet/${id}`;
+        const formData = new FormData();
+        formData.append('modelo', modelo);
+        formData.append('peso', parseInt(peso));
+        formData.append('precio', parseInt(precio));
+        formData.append('descripcion', descripcion);
+        formData.append('cantidad', parseInt(cantidad));
+        formData.append('brandId', brandId);
+        formData.append('mainImagen', mainImagen);
+
+        //var raquetJson = JSON.stringify(raquet)
+        //debugger;
+        const url =`${baseUrl}/brands/${idbrand}/raquet/Form/${id}`;
         fetch(url, {
-            headers: { "Content-Type": "application/json; charset=utf-8" },
-            body: raquetJson,
+            //headers: { "Content-Type": "application/json; charset=utf-8" },
+            body: formData,
             method: 'PUT'
         }).then((response) => {
             if (response.status === 200) {
-                
-                
-                
                 
                 document.getElementById('form-editar').classList.add('low');
                 document.getElementById('message-editar').innerHTML = 'Se Actualizo correctamente! <i class="fas fa-check-circle"></i>';
@@ -134,6 +141,15 @@ window.addEventListener('DOMContentLoaded',async function(event){
                 //document.getElementById('form-editar').classList.remove('low');
             } else {
                 //alert("raquet Update failure");
+                document.getElementById('form-editar').classList.add('low');
+                document.getElementById('message-editar').innerHTML = 'Se Actualizo correctamente! <i class="fas fa-check-circle"></i>';
+                setTimeout(function(){
+                    //document.getElementById("preloader").style.display="none";
+                    //window.location.href = '../main.html'
+                    
+                    cerrarPopUPEdit(event);
+                    window.location.href = '../raquets.html'
+                },2000);
                 response.text().then((data) => {
                 console.log(data);
                 });
@@ -241,23 +257,9 @@ window.addEventListener('DOMContentLoaded',async function(event){
         formData.append('precio', parseInt(precio));
         formData.append('descripcion', descripcion);
         formData.append('cantidad', parseInt(cantidad));
-        formData.append('brandId', mainImagen);
+        formData.append('brandId', brandId);
         formData.append('mainImagen', mainImagen);
 
-
-
-        /*
-        var data = {
-            name: event.currentTarget.name.value,
-            country: event.currentTarget.country.value,
-            dateOfCreation: event.currentTarget.dateOfCreation.value,
-            description: event.currentTarget.description.value,
-            mainPhoto: "vacio",
-            secondPhoto: "vacio"
-        };*/
-
-
-        
         fetch(url, {
             method: 'POST',
             headers: { 
@@ -266,8 +268,15 @@ window.addEventListener('DOMContentLoaded',async function(event){
             body: formData
         }).then(response => {
             if(response.status === 201){
-                alert('Se creo una nueva Raqueta.');
-                location.reload();
+                document.getElementById('form-raquet').classList.add('low');
+                document.getElementById('message-create').innerHTML = 'Se Creo correctamente! <i class="fas fa-check-circle"></i>';
+                setTimeout(function(){
+                    //document.getElementById("preloader").style.display="none";
+                    //window.location.href = '../main.html'
+                    cerrarPopUPCreate(event);
+                    location.reload();
+                },2000);
+                
             } else {
                 response.text()
                 .then((error)=>{
@@ -277,7 +286,8 @@ window.addEventListener('DOMContentLoaded',async function(event){
         });
     }
 
-    function htmlbox_brands(list_raquets){
+    function htmlbox_raquets(list_raquets){
+        
         let brandBlock = list_raquets.map( raquet => { 
         return `<div class="raquet" id="raquet-${raquet.id}"> 
                     <div class="Description-contains">
@@ -291,11 +301,13 @@ window.addEventListener('DOMContentLoaded',async function(event){
                             -->
                     </div>
                     <div class="image-contain" id="image-raquet-${raquet.id}">
+                            <img src="${baseRawUrl}/${raquet.mainPhoto}" >
                     </div>
                     <div class="buttons-contains" id="button-contain-${raquet.id}" >
                         
                     </div>
                 </div>`}   );
+                
         if(myRole()=="Admin"){
             let addeee=brandBlock;
             addeee.push(`<div class="raquet" id="content-add-btn">
@@ -307,8 +319,8 @@ window.addEventListener('DOMContentLoaded',async function(event){
         }        
         
         
-        var brandsContent = brandBlock.join('');
-        document.getElementById('raquets-container').innerHTML = brandsContent;
+        var raquetsContent = brandBlock.join('');
+        document.getElementById('raquets-container').innerHTML = raquetsContent;
 
 
         let classButtonsRaquets= Object.values(document.getElementsByClassName('buttons-contains')) ;
@@ -342,10 +354,10 @@ window.addEventListener('DOMContentLoaded',async function(event){
         //Asignacion de Imagenes Estaticas
         let raquetsClass=Object.values(document.getElementsByClassName('image-contain')) ;
 
-        let staticImage='<img src="/assets/raquet.jpg" class="avatar">';
+        /*let staticImage='<img src="/assets/raquet.jpg" class="avatar">';
         raquetsClass.forEach(subclass => {
             document.getElementById(subclass.id).innerHTML=staticImage;
-        });
+        });*/
         
     }
     function mostrarPopUpDetails(data){
@@ -456,7 +468,7 @@ window.addEventListener('DOMContentLoaded',async function(event){
     
 
 
-    htmlbox_brands(raquets);
+    htmlbox_raquets(raquets);
 
 
 
@@ -478,12 +490,12 @@ window.addEventListener('DOMContentLoaded',async function(event){
 
     //create
     //document.getElementById('create-raquet-form-frm').addEventListener('submit',postRaquet);
-    document.getElementById('btn-create-aceptar').addEventListener('click',postRaquet);
-    
-    document.getElementById('agregar-btn').addEventListener('click',mostrarPopUpCreate);
-    document.getElementById('btn-create-cancelar').addEventListener('click',cerrarPopUPCreate);
-    document.getElementById('btn-cerrar-popup-create').addEventListener('click',cerrarPopUPCreate);
-
+    if(myRole()=="Admin"){
+        document.getElementById('btn-create-aceptar').addEventListener('click',postRaquet);
+        document.getElementById('agregar-btn').addEventListener('click',mostrarPopUpCreate);
+        document.getElementById('btn-create-cancelar').addEventListener('click',cerrarPopUPCreate);
+        document.getElementById('btn-cerrar-popup-create').addEventListener('click',cerrarPopUPCreate);
+    }
     
 
     document.getElementById('registrarse-btn').addEventListener('click',redirectionSingUp);

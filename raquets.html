@@ -24,8 +24,8 @@
         <ul>
             <li> <a href="mainUser.html">Inicio</a> </li>
             <li> <a href="brands.html">Nuestras Marcas</a>  </li>
-            <li> <a href="#contact">Contact</a>       </li>
-            <li> <a href="#about">About</a>           </li>
+            <li> <a href="../../Tutoriales.html">Tutoriales</a>       </li>
+            <li> <a href="../../About.html">Acerca de Nosotros</a>           </li>
             <li style="float:right"><button id="logout-btn">Cerrar Sesion</button> </li>
             <li style="float:right"><button id="registrarse-btn">Registrarse</button> </li>
             <li style="float:right"><button id="session-login-btn"> Iniciar Sesion</button> </li>
@@ -74,7 +74,7 @@
 
             <div class="content-eliminar">
                 <div class="tittle">
-                    <p id="message-eliminar">Esta seguro de eliminar?</p>
+                    <p id="message-eliminar">¿Está seguro de eliminar?</p>
                 </div>
                 <div class="content-eliminar-btn" id="content-eliminar-btn-id">
                     <button id="si-btn">Si</button>
@@ -107,7 +107,10 @@
                         <p><b>Descripcion:</b></p>
                         <textarea name="descripcion" id="input-descripcion-editar"></textarea>   
                         <p><b>Cantidad:</b></p>
-                        <input type="text" name="cantidad" id="input-cantidad-editar">      
+                        <input type="text" name="cantidad" id="input-cantidad-editar"> 
+                        
+                        <label for="mainImagen" class="form-label"><b>Imagen de la Raqueta</b></label>  <br> 
+                        <input id="mainImagen" type="file" name="mainImagen" class="form-control">
                         <!--<textarea id="input-descripcion-editar"></textarea>-->
                     </div>
                     <div class="button-editar"> 
@@ -125,6 +128,9 @@
     </div>
     <div class="overlay-create" id="overlay-create">
         <div class="popup-create" id="popup-create">
+            <div class="message-create-div" >
+                <p id="message-create"></p>
+            </div>
             <div id="form-raquet" class="container-raquet-create">
                 <div class="tittle">
                     <p id="message-editar"><b>Crear Raqueta</b></p>
@@ -156,7 +162,7 @@
                         <div class="alert-invalidate" id="cantidad-alert">
                             
                         </div>
-                        <label for="Descripcion" class="form-label"><b>Descripcion:</b></label> <br> 
+                        <label for="Descripcion" class="form-label"><b>Descripción:</b></label> <br> 
                         <textarea name="descripcion" id="input-descripcion-editar"></textarea>   <br> 
                         
                         <div class="alert-invalidate" id="descripcion-alert">

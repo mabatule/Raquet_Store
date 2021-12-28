@@ -2,6 +2,23 @@
 
     const baseRawUrl = 'http://localhost:5077';
     const baseUrl = `${baseRawUrl}/api`;
+    function myRole(){
+        try{
+            let jwt=sessionStorage.getItem("jwt");
+            let jwtData = jwt.split('.')[1];
+            let decodedJwtJsonData = window.atob(jwtData);
+            let decodedJwtData = JSON.parse(decodedJwtJsonData);
+            return decodedJwtData['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
+        }catch{
+            return "";
+        }
+    }
+    function redirectionRol(){
+        if(myRole()!=""){
+            window.location.href = '../../mainUser.html';
+        }
+    }
+
     function createUserRoleSimple(email){
         let url = `${baseUrl}/users/UserRoleSimple`;
         var data = {
@@ -29,14 +46,6 @@
             }
         });
     }
-    function tiene_numeros(texto){
-        for(i=0; i<texto.length; i++){
-            if (indexOf(texto.charAt(i),0)!=-1){
-                return 1;
-            }
-        }
-        return 0;
-    }
     function postUser(event){
 
 
@@ -46,13 +55,22 @@
         let passEmail=false;
         let passPasword=false;
         let passPaswordConfirm=false;
-
+        let re=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+        let validateEmailFormater=Boolean(!re.exec(event.currentTarget.email.value));
         if(!Boolean(event.currentTarget.email.value)){  
+            document.getElementById("email-alert").innerHTML= "<h4>Introduzca su email</h4>";
             document.getElementById('email-alert').classList.add('active');
             passPasword=true;
         }else{
-            document.getElementById('email-alert').classList.remove('active');
+            if(validateEmailFormater){
+                document.getElementById("email-alert").innerHTML= "<h4>Email Invalido</h4>";
+                document.getElementById('email-alert').classList.add('active');
+                passPasword=true;
+            }else{
+                document.getElementById('email-alert').classList.remove('active');
+            }
         }
+    
         
         if(!Boolean(event.currentTarget.password.value)){
             document.getElementById('password-alert').classList.add('active');
@@ -165,6 +183,7 @@
     function redirectionSingUp(){
         window.location.href = '/users/signUp.html'
     }
+    redirectionRol();
     document.getElementById('registrarse-btn').addEventListener('click',redirectionSingUp);
     document.getElementById('SignIn-box').addEventListener('submit',postUser);
     document.getElementById('session-login-btn').addEventListener('click',redirectionLogin);

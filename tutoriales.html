@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="/styles/general.css">
+    
+    <link rel="stylesheet" type="text/css" href="/styles/tutoriales.css">
+
+    <script src="/scripts/tutoriales.js"></script>
+    <script src="/scripts/general.js"></script>
+
+    <title>Inicio</title>
+
+</head>
+<header> 
+    <div class="content-inicio">
+        <ul>
+            <li> <a href="mainUser.html">Inicio</a> </li>
+            <li> <a href="brands.html">Nuestras Marcas</a>  </li>
+            <li> <a href="../../Tutoriales.html">Tutoriales</a>       </li>
+            <li> <a href="../../About.html">Acerca de Nosotros</a>           </li>
+            <li style="float:right"><button id="logout-btn">Cerrar Sesion</button> </li>
+            <li style="float:right"><button id="registrarse-btn">Registrarse</button> </li>
+            <li style="float:right"><button id="session-login-btn"> Iniciar Sesion</button> </li>
+            <li style="float:right"><button id="user-btn">  </button> </li>
+
+        </ul>
+    </div>
+</header>
+<body>
+    <div class="overlay-access" id="overlay-access">
+        <div class="popup-access" id="popup-access">
+            <div class="exit">
+                <a href="#" id="btn-cerrar-popup-access" class="btn-cerrar-popup-access">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+            <div class="tittle">
+                <h1 id="message-access"><b>Aviso</b></h1>
+            </div>
+            
+            <div class="description">
+                <p>Para Acceder a nuestros tutoriales tiene que Iniciar Sesion</p>
+            </div>
+            <div class="content-btn">
+                <!--
+                     <button id="session-login-btn"> Iniciar Sesion</button>
+                -->
+            </div>
+        </div>
+    </div>
+    <selection class="videos" id="content-id-videos">
+        <h1>Movimientos de Raquetball</h1>
+
+        <div>
+            <span>
+                <iframe width="560" height="314" src="https://www.youtube.com/embed/QcNSzPCMlXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </span>
+            <span>
+                <iframe width="560" height="314" src="https://www.youtube.com/embed/C9fCexli7-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </span>
+        </div>
+        <div>
+            <span>
+                <iframe width="560" height="314" src="https://www.youtube.com/embed/A-uHQxcxVa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </span>
+            <span>
+                <iframe width="560" height="314" src="https://www.youtube.com/embed/gyjPeOj4tnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </span>
+        </div>
+    </selection>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+
+            <div class="contains-footer">
+                <div class="containsub-footer" id="contains-logos">
+                    <img src="/assets/logos_Images.jpg" class="avatar">
+                </div>
+                <div class="containsub-footer" id="contains-redes-Sociales">
+                    <div class="tittle">
+                        <p>Redes Sociales</p>
+                    </div>
+                    <p>Facebook   <i class="fab fa-facebook"></i>   </p>
+                    <p>Instagram  <i class="fab fa-instagram"></i></p>
+                    <p>You Tube   <i class="fab fa-youtube"></i></p>
+                </div>
+                <div class="containsub-footer" id="contains-contactos">
+                    <div class="tittle">
+                        <p>Contactos</p>
+                    </div>
+                    <p>WhatsApp: +591 727250666</p>
+                    <p>Email: info@gearboxsports.com</p>
+                </div>
+            </div>
+        
+    </footer>
+</html>

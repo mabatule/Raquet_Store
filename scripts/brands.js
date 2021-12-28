@@ -74,7 +74,4 @@ window.addEventListener('DOMContentLoaded',async function(event){
     document.getElementById('registrarse-btn').addEventListener('click',redirectionSingUp);
     document.getElementById('session-login-btn').addEventListener('click',redirectionLogin);
 
-    //document.getElementById('brand-1').addEventListener('click',redirectToRaquets);
-    //document.getElementById('brand-2').addEventListener('click',redirectToRaquets);
-    //document.getElementById('brand-4').addEventListener('click',redirectToRaquets);
 });

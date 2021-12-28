@@ -1,0 +1,115 @@
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.exe
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.deps.json
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.runtimeconfig.json
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.runtimeconfig.dev.json
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.dll
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.pdb
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.csproj.AssemblyReference.cache
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.AssemblyInfoInputs.cache
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.AssemblyInfo.cs
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\staticwebassets\RaquetShop.StaticWebAssets.Manifest.cache
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\staticwebassets\RaquetShop.StaticWebAssets.xml
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\scopedcss\bundle\RaquetShop.styles.css
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.RazorTargetAssemblyInfo.cache
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.dll
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.pdb
+C:\Users\Windows 10 2019\source\repos\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.genruntimeconfig.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.exe
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.deps.json
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.runtimeconfig.json
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.runtimeconfig.dev.json
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.pdb
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.csproj.AssemblyReference.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.AssemblyInfoInputs.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.AssemblyInfo.cs
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\staticwebassets\RaquetShop.StaticWebAssets.Manifest.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\staticwebassets\RaquetShop.StaticWebAssets.xml
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\scopedcss\bundle\RaquetShop.styles.css
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.RazorTargetAssemblyInfo.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.pdb
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\FrontEnd\Front_Back\RaquetShop\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.genruntimeconfig.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.exe
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.deps.json
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.runtimeconfig.json
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.runtimeconfig.dev.json
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\RaquetShop.pdb
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.csproj.AssemblyReference.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.AssemblyInfoInputs.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.AssemblyInfo.cs
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\staticwebassets\RaquetShop.StaticWebAssets.Manifest.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\staticwebassets\RaquetShop.StaticWebAssets.xml
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\scopedcss\bundle\RaquetShop.styles.css
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.RazorTargetAssemblyInfo.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.csproj.CopyComplete
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.pdb
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\obj\Debug\netcoreapp3.1\RaquetShop.genruntimeconfig.cache
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Windows 10 2019\Desktop\Semestre 2021-II\Tec web my\Proyecto Final\RaquetShopApi\RaquetShop\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll

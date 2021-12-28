@@ -95,11 +95,15 @@ footer {
 	transform: translateY(-3%);
 }
 
+
 .image-contain > img{
-    margin: 5% 25%;
+    margin: 5% 10%;
     
-    width: 180px;
-    height: 350px;
+    width: 80%;
+    height: 300px;
+    /*
+    object-fit: cover;
+    */
 }
 
 .tittle{
@@ -171,8 +175,9 @@ footer {
     display: flex;
 }
 .image-contain-popup >img{
-    width: 220px;
-    height: 490px;
+    width: 100%;
+    height: 400px;
+
 }
 .contain-description-popup{
     width: 70%;
@@ -215,7 +220,7 @@ footer {
     background-color: rgb(211, 209, 209);
     padding: 5px;
     width: 30%;
-    
+    margin-bottom: 80px;
     /*
     border: 2px;
     border-radius: 12px;
@@ -225,6 +230,7 @@ footer {
 .content-editar{
     margin: 10px;
     width: 100%;
+    
 }
 
 .popup-editar p{
@@ -239,6 +245,7 @@ footer {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    
 }
 #input-descripcion-editar{
     width: 300px;
@@ -249,6 +256,7 @@ form{
     align-items: center;
     flex-direction:column;
 }
+
 .form-content-editar.low{
     display: none;
 }
@@ -270,6 +278,18 @@ form{
 
 .container-raquet-create{
     margin: auto;
+}
+.container-raquet-create.low{
+    display: none;
+}
+.message-create-div{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.message-create-div p{
+    margin-top: 40px;
 }
 /*Agregar btn*/
 #content-add-btn{

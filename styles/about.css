@@ -1,0 +1,24 @@
+.content-about{
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    text-align: justify;
+    background-color: rgb(209, 209, 209);
+    margin: 80px 80px 80px 80px;
+    padding-bottom: 50px;
+}
+.content-description {
+    width: 51%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.content-description p{
+    font-size: 25px;
+    text-align: justify;
+}
+.content-ubicacion{
+    margin-left: 5%;
+    margin-top: 30px;
+    
+}
