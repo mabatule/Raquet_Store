@@ -26,10 +26,7 @@ window.addEventListener('DOMContentLoaded',async function(event){
             document.getElementById('p-Cantidad').innerHTML = data.cantidad;
             document.getElementById('p-Descripcion').innerHTML = data.descripcion;
             document.getElementById('p-Precio').innerHTML = `${data.precio}$` ;
-
-            
             let raquetsClass=Object.values(document.getElementsByClassName('image-contain-popup')) ;
-
             let staticImage=`<img src="${baseRawUrl}/${data.mainPhoto}" >`;
             raquetsClass.forEach(subclass => {
                 document.getElementById(subclass.id).innerHTML=staticImage;
@@ -38,11 +35,9 @@ window.addEventListener('DOMContentLoaded',async function(event){
         } else { 
             var error = await response.text();
             return "";
-            alert(error)
         }
         
     }
-
     async function fetchGetRaquets(){
         const url = `${baseUrl}/brands/${idbrand}/raquet`;
         let response = await fetch(url);
@@ -71,10 +66,8 @@ window.addEventListener('DOMContentLoaded',async function(event){
         }).then((response) => {
             if (response.status === 200) {
                 //alert("Raquet Delete successfuly");
-                
                 document.getElementById('content-eliminar-btn-id').classList.add('low');
                 document.getElementById('message-eliminar').innerHTML = 'Se elimino correctamente! <i class="fas fa-check-circle"></i>';
-                
                 setTimeout(function(){
                     //document.getElementById("preloader").style.display="none";
                     //window.location.href = '../main.html'
@@ -91,14 +84,11 @@ window.addEventListener('DOMContentLoaded',async function(event){
             console.log(data);
         }); 
         raquets =await fetchGetRaquets();
-        
-
     }
     async function fetchPutRaquet(event)
     {
         let id=event.currentTarget.classList.add;
         event.preventDefault();
-        
         let modelo= event.currentTarget.form.modelo.value;
         let peso= parseInt(event.currentTarget.form.peso.value);
         let precio=parseInt(event.currentTarget.form.precio.value);
@@ -131,7 +121,6 @@ window.addEventListener('DOMContentLoaded',async function(event){
                 setTimeout(function(){
                     //document.getElementById("preloader").style.display="none";
                     //window.location.href = '../main.html'
-                    
                     cerrarPopUPEdit(event);
                     window.location.href = '../raquets.html'
                 },2000);

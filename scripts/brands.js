@@ -2,9 +2,6 @@ window.addEventListener('DOMContentLoaded',async function(event){
     let brands = [];
     const baseRawUrl = 'http://localhost:5077';
     const baseUrl = `${baseRawUrl}/api`;
-
-
-
     async function fetchGetBrands(){
         const url = `${baseUrl}/brands`;
         let response = await fetch(url);
@@ -22,7 +19,6 @@ window.addEventListener('DOMContentLoaded',async function(event){
         }
         return [];
     }
-
     function htmlbox_brands(list_brands){
         let brandBlock = list_brands.map( brand => { 
         return `<div class="brand" id="brand-${brand.id}"> 
@@ -44,13 +40,9 @@ window.addEventListener('DOMContentLoaded',async function(event){
         var brandsContent = brandBlock.join('');
         
         document.getElementById('brands-container').innerHTML = brandsContent;
-
-            
         document.getElementById('image-brand-1').innerHTML='<img src="/assets/gearbox.jpg" class="avatar">';
         document.getElementById('image-brand-2').innerHTML='<img src="/assets/eforce.jpg" class="avatar">';
         document.getElementById('image-brand-4').innerHTML='<img src="/assets/prokennex.jpg" class="avatar">';
-        
-        
     }
     function redirectToRaquets(data){ 
         let id=data.currentTarget.id.split('-')[1];

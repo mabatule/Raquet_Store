@@ -27,16 +27,12 @@ button:hover{
 #session-login-btn.low{
     display: none;
 }
-
-
 #logout-btn{
   display:none;
 }
 #logout-btn.activate{
   display: block;
 }
-
-
 #user-btn{
   display:none;
 }
@@ -79,9 +75,6 @@ li a:hover {
   margin-right: 10px;
 }
 /*footer*/
-
-
-
 footer {
   position: fixed;
   left: 0;

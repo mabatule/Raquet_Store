@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', function(event){
+    
     function myRole(){
         try{
             let jwt=sessionStorage.getItem("jwt");

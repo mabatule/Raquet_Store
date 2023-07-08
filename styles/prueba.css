@@ -10,12 +10,6 @@
 .description-create{
     background-color: chartreuse;
 }
-
-
-
-
-
-
 .overlay, .overlay-eliminar,.overlay-editar {
 	background: rgba(0,0,0,.3);
 	position: fixed;

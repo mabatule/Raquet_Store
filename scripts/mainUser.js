@@ -17,7 +17,6 @@ window.addEventListener('DOMContentLoaded', function(event){
             window.location.href = '../otherMain.html'
         }
     }
-
     function redirectionLogin(){
         window.location.href = '/users/login.html'
     }
@@ -26,13 +25,5 @@ window.addEventListener('DOMContentLoaded', function(event){
     }
     document.getElementById('registrarse-btn').addEventListener('click',redirectionSingUp);
     document.getElementById('session-login-btn').addEventListener('click',redirectionLogin);
-
-
-    
-    //authenticator();
-
-
-
-
 });
 

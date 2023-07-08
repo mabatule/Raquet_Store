@@ -20,8 +20,7 @@ window.addEventListener('DOMContentLoaded', function(event){
     function redirectionLoginROL(){
         if(myRole()!=""){
             window.location.href = '../../mainUser.html';
-    }
-
+        }
     }
     function loginUser(event){
         event.preventDefault();

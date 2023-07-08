@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
 }
-
 #login-container{
     
     margin: 80px auto 260px auto;
@@ -12,14 +11,11 @@
     background-color: rgba(101, 101, 160, 0.4);
     font-size: 25px;
 }
-
 .imgcontainer > img{
     margin: 5%;
     width:  30%;
     height: 30%;
 }
-
-
 .inputs-login label{
     display: inline-block;
     width: 30%; 

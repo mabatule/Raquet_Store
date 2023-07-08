@@ -13,7 +13,6 @@ window.addEventListener('DOMContentLoaded',async function(event){
     function redirectionRol(){
         if(myRole()==""){
             mostrarPopUpAcess();
-            //document.getElementById('content-id-videos').classList.add('low');
         }
     }
     function mostrarPopUpAcess(){

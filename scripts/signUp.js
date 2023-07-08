@@ -18,7 +18,6 @@
             window.location.href = '../../mainUser.html';
         }
     }
-
     function createUserRoleSimple(email){
         let url = `${baseUrl}/users/UserRoleSimple`;
         var data = {
@@ -42,7 +41,6 @@
                             return false;
                     }
                 });
-                
             }
         });
     }
